@@ -1,6 +1,6 @@
 {
   "name": "facemask",
-  "version": "0.0.0",
+  "version": "0.0.0-alpha.2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "license": "MIT",
@@ -8,6 +8,9 @@
     "build": "tsc",
     "test": "yarn run jest --config=jest.config.json"
   },
+  "files": [
+    "dist/**/*"
+  ],
   "peerDependencies": {
     "facepaint": "^1.2.1"
   },
