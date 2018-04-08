@@ -4,6 +4,8 @@ Design System based responsive styling for css-in-js.
 
 It currently is highly opinionated about three steps on the scale.
 
+To see it in practice, checkout the codesandbox example https://codesandbox.io/s/qk40mo1wqw?module=%2Fsrc%2FExample.js.
+
 ## The problem
 
 You have a stepped scale for sizing and the steps don't increase by common ratios, so can't really on rems and changing the base font size. Alternatively you may use different ratio changes between sizing and spacing at different viewports.
