@@ -1,0 +1,11 @@
+{
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "setupTestFrameworkScriptFile": "./setup-tests.js",
+  "snapshotSerializers": ["enzyme-to-json/serializer"],
+  "roots": ["./src/"],
+  "transform": {
+    "^.+\\.tsx?$": "ts-jest"
+  },
+  "coveragePathIgnorePatterns": ["/node_modules/"],
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"]
+}

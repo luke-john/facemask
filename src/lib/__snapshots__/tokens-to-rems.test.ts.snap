@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`converts pixels to rems 1`] = `
+Object {
+  "spacing": Object {
+    "earth": Array [
+      "1rem",
+      "1.625rem",
+      "2.5625rem",
+    ],
+    "mars": Array [
+      "0.5rem",
+      "0.8125rem",
+      "1.25rem",
+    ],
+    "moon": Array [
+      "0.25rem",
+      "0.375rem",
+      "0.625rem",
+    ],
+    "saturn": Array [
+      "2rem",
+      "3.25rem",
+      "5.1875rem",
+    ],
+    "sun": Array [
+      "4.125rem",
+      "6.625rem",
+      "10.5rem",
+    ],
+  },
+  "type": Object {
+    "dolphin": Array [
+      "1.625rem",
+      "2rem",
+      "2.5625rem",
+    ],
+    "hippo": Array [
+      "2rem",
+      "2.5625rem",
+      "3.25rem",
+    ],
+    "mammoth": Array [
+      "2.5625rem",
+      "3.25rem",
+      "4.125rem",
+    ],
+    "mouse": Array [
+      "1rem",
+      "1.25rem",
+      "1.625rem",
+    ],
+    "otter": Array [
+      "1.25rem",
+      "1.625rem",
+      "2rem",
+    ],
+    "snail": Array [
+      "0.8125rem",
+      "1rem",
+      "1.25rem",
+    ],
+    "whale": Array [
+      "3.25rem",
+      "4.125rem",
+      "5.1875rem",
+    ],
+  },
+}
+`;
+
+exports[`converts pixels to rems with custom base font sizes 1`] = `
+Object {
+  "spacing": Object {
+    "earth": Array [
+      "1.6rem",
+      "1.7333333333333334rem",
+      "2.05rem",
+    ],
+    "mars": Array [
+      "0.8rem",
+      "0.8666666666666667rem",
+      "1rem",
+    ],
+    "moon": Array [
+      "0.4rem",
+      "0.4rem",
+      "0.5rem",
+    ],
+    "saturn": Array [
+      "3.2rem",
+      "3.466666666666667rem",
+      "4.15rem",
+    ],
+    "sun": Array [
+      "6.6rem",
+      "7.066666666666666rem",
+      "8.4rem",
+    ],
+  },
+  "type": Object {
+    "dolphin": Array [
+      "2.6rem",
+      "2.1333333333333333rem",
+      "2.05rem",
+    ],
+    "hippo": Array [
+      "3.2rem",
+      "2.7333333333333334rem",
+      "2.6rem",
+    ],
+    "mammoth": Array [
+      "4.1rem",
+      "3.466666666666667rem",
+      "3.3rem",
+    ],
+    "mouse": Array [
+      "1.6rem",
+      "1.3333333333333333rem",
+      "1.3rem",
+    ],
+    "otter": Array [
+      "2rem",
+      "1.7333333333333334rem",
+      "1.6rem",
+    ],
+    "snail": Array [
+      "1.3rem",
+      "1.0666666666666667rem",
+      "1rem",
+    ],
+    "whale": Array [
+      "5.2rem",
+      "4.4rem",
+      "4.15rem",
+    ],
+  },
+}
+`;

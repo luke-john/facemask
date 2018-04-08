@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`builds responsive shorthand queries 1`] = `
+Array [
+  "
+      ",
+  "padding:  4 16; margin: 16; @media(min-width: 731px) {
+  padding:  6 26; margin: 26;
+} @media(min-width: 1695px) {
+  padding:  10 41; margin: 41;
+} & div {
+  padding: 32; margin:  16 32 66 8; @media(min-width: 731px) {
+  padding: 52; margin:  26 52 106 13;
+} @media(min-width: 1695px) {
+  padding: 82; margin:  41 82 180 20;
+}
+}",
+  ";
+    ",
+]
+`;
+
+exports[`scales properties 1`] = `
+Array [
+  "
+      ",
+  "padding: 4; @media(min-width: 731px) {
+  padding: 6;
+} @media(min-width: 1695px) {
+  padding: 10;
+} & div {
+  padding: 32; @media(min-width: 731px) {
+  padding: 52;
+} @media(min-width: 1695px) {
+  padding: 82;
+}
+}",
+  ";
+    ",
+]
+`;

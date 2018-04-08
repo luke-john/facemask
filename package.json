@@ -1,0 +1,35 @@
+{
+  "name": "facemask",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test": "yarn run jest --config=jest.config.json"
+  },
+  "peerDependencies": {
+    "facepaint": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.2.2",
+    "@types/react": "^16.3.5",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.3",
+    "facepaint": "^1.2.1",
+    "jest": "^22.4.3",
+    "jest-enzyme": "^6.0.0",
+    "jest-styled-components": "^5.0.1",
+    "polished": "^1.9.2",
+    "prettier": "^1.11.1",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "styled-components": "^3.2.5",
+    "ts-jest": "^22.4.2",
+    "tslint": "^5.9.1",
+    "tslint-microsoft-contrib": "^5.0.3",
+    "tslint-react": "^3.5.1",
+    "typescript": "^2.8.1"
+  }
+}
